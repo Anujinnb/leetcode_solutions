@@ -27,3 +27,5 @@ public class Solution {
         return false;
     }
 }
+
+// Done with runtime of 0 ms, faster than 100.00% of Java online submissions for Linked List Cycle
