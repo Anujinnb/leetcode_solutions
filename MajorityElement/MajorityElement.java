@@ -14,7 +14,6 @@ class Solution {
                 return entry.getKey();
             }
         }
-
         return -1;
     }
 }
