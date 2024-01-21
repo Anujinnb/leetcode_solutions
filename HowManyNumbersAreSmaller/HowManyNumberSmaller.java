@@ -1,3 +1,7 @@
+//Explanation for the code below:
+//First, we iterate through the array and check if the next elements are smaller than the current element, then we count those numbers.
+//After that, we store those numbers to the new array named result;
+
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] result = new int[nums.length];
