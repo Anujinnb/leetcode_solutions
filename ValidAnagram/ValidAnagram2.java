@@ -1,4 +1,4 @@
-//This solution provides the runtime complexity of O(nlogn)
+//This solution provides the runtime complexity of O(nlogn). The space complexity of this code is O(2n) ==> O(n)
 
 class Solution {
     public boolean isAnagram(String s, String t) {
