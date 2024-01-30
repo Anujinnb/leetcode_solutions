@@ -1,3 +1,5 @@
+//This solution provides runtime complexity of O(n)
+
 class Solution {
     public boolean isAnagram(String s, String t) {
         HashMap<Character, Integer> s_map = new HashMap<>();
