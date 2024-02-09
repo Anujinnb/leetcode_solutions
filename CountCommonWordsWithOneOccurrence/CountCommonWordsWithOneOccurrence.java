@@ -1,3 +1,6 @@
+//For each string, we need to count each word using the separate hashmaps. If the word count is 1 in each string,
+//then we can count those words.
+
 class Solution {
     public int countWords(String[] words1, String[] words2) {
         int count = 0;
