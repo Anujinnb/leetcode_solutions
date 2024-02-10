@@ -1,4 +1,6 @@
-// This solution provides runtime complexity of O(log n) for this problem
+// This solution provides runtime complexity of O(log n) for this problem.
+// We need to divide the array to two different parts. If the target number is lower than the middle number, then the target
+// exists in the lower part of the array. Otherwise, it is in the upper part of the array.
 
 class Solution {
     public int search(int[] nums, int target) {
