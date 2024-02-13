@@ -1,3 +1,8 @@
+//Explanation for the code: Since we have two strings, we can use two different hashmaps.
+//If the hashmap contains the character, then we assume that character exists in the hashmap and
+//we add to the count. Otherwise, we can put the character and count of 1 in the hashmap.
+//If hashmap contains the character that doesn't exist in the hashmap, then we return that key.
+
 class Solution {
     public char findTheDifference(String s, String t) {
         HashMap<Character, Integer> map_s = new HashMap<>();
