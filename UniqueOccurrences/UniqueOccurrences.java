@@ -1,5 +1,7 @@
-import java.util.HashMap;
-import java.util.Map;
+//Explanation for the code: Using hashmap, if hashmap contains the specific number, then we can increase the count of occurrence
+//If hashmap doesn't contain that number, then we can put that number and count of 1 in the hashmap.
+//Using the entry set, if entry.getValue() which is the occurrence of number already exists in the hashset,
+//then it is not unique. So, we return false. Otherwise, we add that to the entry set.
 
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
