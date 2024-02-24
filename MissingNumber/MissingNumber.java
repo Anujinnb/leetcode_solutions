@@ -1,3 +1,6 @@
+//Time complexity of this code is O(nlogn). Sorting the array takes time complexity of O(nlogn).
+//Therefore, the overall complexity is nlogn.
+
 class Solution {
     public int missingNumber(int[] nums) {
         Arrays.sort(nums);
