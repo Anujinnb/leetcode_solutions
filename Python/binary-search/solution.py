@@ -1,5 +1,15 @@
+from typing import List
+
 class Solution:
-    def search(self, nums: List[int], target: int) -> int:
+    def bruteforce_search(self, nums: List[int], target: int) -> int:
+        left = 0
+        for i in range(len(nums)):
+            if nums[i] == target:
+                return i
+        
+        return -1
+
+    def binary_search(self, nums: List[int], target: int) -> int:
         left = 0
         right = len(nums) - 1
 
