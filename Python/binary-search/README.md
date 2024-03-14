@@ -18,7 +18,8 @@ First, we take the first index of the whole list (left) and the last index of th
 
 ### Time complexity
 
-1. Brute force time complexity is O(logn).
+1. Brute force time complexity is O(n). Because we iterate through the whole list to search for the index.
+2. Binary search time complexity is O(logn). The reason is we divide the whole list into half to search for the index.
 
 ### Space complexity
 
@@ -26,4 +27,4 @@ The space complexity of this code is O(1) because the amount of space used by th
 
 ## Test cases
 
-There are overall 12 test cases for this algorithm. If the algorithm passes all 12 test cases, it will display "All test cases passed successfully"
+There are few test cases for this algorithm. If the algorithm passes the test cases, it will display "All test cases passed successfully"
