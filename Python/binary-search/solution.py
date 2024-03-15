@@ -2,7 +2,6 @@ from typing import List
 
 class Solution:
     def bruteforce_search(self, nums: List[int], target: int) -> int:
-        left = 0
         for i in range(len(nums)):
             if nums[i] == target:
                 return i
@@ -12,10 +11,7 @@ class Solution:
     def binary_search(self, nums: List[int], target: int) -> int:
         left = 0
         right = len(nums) - 1
-
-        left = 0
-        right = len(nums) - 1
-
+        
         while left <= right:
             mid = (left + right) // 2
 
