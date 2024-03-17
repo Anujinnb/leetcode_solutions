@@ -22,4 +22,18 @@ Space Complexity: O(n) (Space complexity for sorting is generally O(n). It grows
 
 ### 3. Hashset
 
+Hashset doesn't allow duplicates. So, we can simply loop through the array and if the element doesn't exist in the hashset, then we can add it to the hashset. If the element already exists in the hashset, then we can return True.
+
+Time Complexity: O(n) (We loop through the array once)
+Space Complexity: O(n) (where n is the number of elements in the input list nums. If the element doesn't exist in the array, we keep adding, which is adding to the space)
+
 ### 4. Hashmap
+
+We loop through the array and if the element doesn't exist in the hashmap, then we add to the hashmap with two values (key and value). If the value already exists in hashmap, then return true.
+
+Time Complexity: O(n) (We loop through the array once)
+Space Complexity: O(n) (where n is the number of elements in the input list nums. If the element doesn't exist in the array, we keep adding, which is adding to the space)
+
+### Conclusion
+
+If we use bruteforce algorithm, it will obviously increase the runtime complexity, but lower space complexity. If we use hashset and hashmap, it will take lower runtime complexity, but higher space complexity. So, in compensation for decreasing the runtime complexity, we use higher space complexity.
