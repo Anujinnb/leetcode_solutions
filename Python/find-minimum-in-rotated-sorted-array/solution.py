@@ -1,5 +1,15 @@
 class Solution:
-    def findMin(self, nums: List[int]) -> int:
+
+    def findMin_bruteforce(self, nums: List[int]) -> int:
+        min_value = sys.maxsize
+        
+        for num in nums:
+            if num < min_value:
+                min_value = num
+        
+        return min_value
+
+    def findMin_binarysearch(self, nums: List[int]) -> int:
         low = 0
         high = len(nums) - 1
         min_val = nums[0]
