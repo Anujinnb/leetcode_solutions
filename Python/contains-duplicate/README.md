@@ -18,7 +18,7 @@ Space Complexity: O(1) (we don't use additional space)
 We sort the array first. Since it is sorted, we just need to check the element at some index i and element at index i + 1. If these two equal to each other, then we can return true. Otherwise, it is false.
 
 Time Complexity: O(nlogn) (Since we used sorting algorithm, it should be nlogn. It is little faster than bruteforce algorithm.)
-Space Complexity: O(n) (Space complexity for sorting is generally O(n). It grows linearly with the size of input)
+Space Complexity: O(1)
 
 ### 3. Hashset
 
