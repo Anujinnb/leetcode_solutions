@@ -1,5 +1,3 @@
-//This solution uses entry set to get the value of the hashmap. Also, this solution is slightly slower than the first solution
-
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
