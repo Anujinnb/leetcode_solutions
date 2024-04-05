@@ -1,12 +1,17 @@
+//This solution takes runtime complexity of O(n^2)
+
 class Solution {
-    public int[] getConcatenation(int[] nums) {
-        int[] new_array = new int[nums.length*2];
+    public int countKDifference(int[] nums, int k) {
+        int count = 0;
 
         for (int i = 0; i < nums.length; i++) {
-            new_array[i] = nums[i];
-            new_array[i + nums.length] = nums[i];
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] - nums[j] == k || nums[j] - nums[i] == k) {
+                    count++;
+                }
+            }
         }
 
-        return new_array;
+        return count;
     }
 }
