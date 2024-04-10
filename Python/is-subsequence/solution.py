@@ -1,3 +1,5 @@
+# The solution takes runtime complexity of O(n) and space complexity of O(1)
+
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         i = 0

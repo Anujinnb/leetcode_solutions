@@ -1,3 +1,5 @@
+//The solution takes runtime complexity of O(n) and space complexity of O(1)
+
 class Solution {
     public boolean isSubsequence(String s, String t) {
         int i = 0;
