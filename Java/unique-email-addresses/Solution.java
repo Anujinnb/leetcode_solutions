@@ -1,3 +1,5 @@
+//This solution has time complexity of O(n) since we loop the whole array only once.
+
 class Solution {
     public int numUniqueEmails(String[] emails) {
         HashSet<String> set = new HashSet<>();
