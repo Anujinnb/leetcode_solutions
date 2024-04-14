@@ -1,4 +1,5 @@
 //This solution has time complexity of O(n) since we loop the whole array only once.
+//Space complexity of O(n) where n is unique email addresses in the hashset.
 
 class Solution {
     public int numUniqueEmails(String[] emails) {
