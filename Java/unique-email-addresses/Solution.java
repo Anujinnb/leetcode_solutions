@@ -1,5 +1,10 @@
 //This solution has time complexity of O(n) since we loop the whole array only once.
 //Space complexity of O(n) where n is unique email addresses in the hashset.
+//Explanation: We loop the emails array and get email one by one. Then, we split the email by @ sign to local name and domain name.
+//If the local name contains ".", then we ignore this one and treat as a string without ".". If the local name contains "+" sign,
+//then we ignore the characters after "+" sign and get all the characters before "+". After that, we can store the concatenation of local name,
+//"@" sign and domain name into the new string. And using hashset, we can get only unique email addresses. Then, returning the size of hashset
+//is our desired value.
 
 class Solution {
     public int numUniqueEmails(String[] emails) {
