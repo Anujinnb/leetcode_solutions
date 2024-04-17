@@ -1,3 +1,5 @@
+//Runtime complexity: O (n) because we loop through the flowerbed array once
+
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         if (n == 0) {
