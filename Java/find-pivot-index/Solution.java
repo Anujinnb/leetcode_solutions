@@ -10,7 +10,6 @@ class Solution {
 
         for (int i = 0; i < nums.length; i++) {
             int left = (i == 0) ? 0 : nums[i - 1];
-            int right = (i == nums.length - 1) ? 0 : nums[i + 1];
 
             left_sum += left;
             right_sum = sum - left_sum - nums[i];
