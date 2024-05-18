@@ -2,6 +2,9 @@
 //that points to the dummy and current node that points to the head. If current node's value equals to the value, then prev node's next node is
 //going to be current's next node. Otherwise, then we move prev node to the current. 
 
+//Runtime complexity: O(n) where n is the number of nodes in the linked list. We traverse the nodes in the linked list only once
+//Space complexity: O(1) the pointers are not dependent on the size of the linked list
+
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         if (head == null) {
