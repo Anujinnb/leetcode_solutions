@@ -1,3 +1,6 @@
+//Runtime complexity: O(n) we traverse through the linked list only once
+//Space complexity: O(1) pointers don't require extra space
+
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode current = head;
