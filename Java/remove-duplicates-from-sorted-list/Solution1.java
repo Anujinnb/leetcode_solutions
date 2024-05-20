@@ -2,6 +2,9 @@
 //the current node and the value of the next node are equal. If the condition is true, then we need to remove that node.
 //Otherwise, we can continue with the process until we go through the whole list.
 
+//Runtime complexity: O(n)
+//Space complexity: O(1)
+
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode current = head;
