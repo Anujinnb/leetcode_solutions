@@ -2,6 +2,9 @@
 //If character does exist in the hashset, then we remove that character from the set and increment the result by 2 because we assume that 
 //we use that character twice. Finally, if the set is not empty (the characters that has count of 1), then we simply add that one to the result.
 
+//Runtime complexity: O(n) because we iterate through n characters in the string once.
+//Space complexity: O(n) because hashset store at most n characters.
+
 class Solution {
     public int longestPalindrome(String s) {
         if (s.isEmpty()) {
