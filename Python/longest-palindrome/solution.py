@@ -1,3 +1,5 @@
+# Runtime complexity: O(n) because we iterate through the characters in the string only once.
+
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         hashset = set()
