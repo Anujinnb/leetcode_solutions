@@ -1,4 +1,5 @@
 # Runtime complexity: O(n) because we iterate through the characters in the string only once.
+# Space complexity: O(n), hashset can store at most n characters.
 
 class Solution:
     def longestPalindrome(self, s: str) -> int:
