@@ -1,3 +1,7 @@
+//Explanation: Use two pointers: one at first index and another one at last index (since we need to maximize the area). If left one is smaller
+//than the right one, we increment the left pointer. If right one is smaller, then we decrement the right pointer and move to the left. 
+//Then, we calculate the area by taking minimum of left or right (height) and width.
+
 class Solution {
     public int maxArea(int[] height) {
         int left = 0;
