@@ -1,3 +1,6 @@
+# Runtime complexity: O(n)
+# Space complexity: O(1)
+
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         left = 0
