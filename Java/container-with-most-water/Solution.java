@@ -2,6 +2,9 @@
 //than the right one, we increment the left pointer. If right one is smaller, then we decrement the right pointer and move to the left. 
 //Then, we calculate the area by taking minimum of left or right (height) and width.
 
+//Runtime complexity: O(n)
+//Space complexity: O(1)
+
 class Solution {
     public int maxArea(int[] height) {
         int left = 0;
