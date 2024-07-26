@@ -1,3 +1,6 @@
+# The runtime complexity of this program is O(n) because we traverse through the string once.
+# Space complexity is O(n) due to the creation of new strings during the lowercase conversion and removal of non-alphanumeric characters.
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         if not s:
