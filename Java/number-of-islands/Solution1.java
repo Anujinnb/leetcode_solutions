@@ -1,4 +1,7 @@
-//This solution contains iterative solution for DFS
+//This solution contains iterative approach for DFS
+//1. The time complexity of the solution is O(m * n) where m is number of rows and n is number of columns
+//because the worst case is if we visited each cell in the grid.
+//2. The space complexity of this program is O(m * n) because there are m * n cells in the grid. 
 
 class Solution {
     public int numIslands(char[][] grid) {
