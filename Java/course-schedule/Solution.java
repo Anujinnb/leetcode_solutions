@@ -1,3 +1,7 @@
+//This solution used Topological Sorting (Kahn's algorithm). 
+//1. The time complexity of this algorithm is O(V + E), where V is the number of courses and E is number of prerequisite dependencies.
+//2. The space complexity is also O(V + E)
+
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] indegree = new int[numCourses];
