@@ -1,3 +1,6 @@
+//Time complexity is O(n). The loop runs n - 1 times, so the time complexity is linear.
+//Space complexity is O(1) because only a constant amount of extra space is used 
+
 class Solution {
     public int climbStairs(int n) {
         int a = 1;
