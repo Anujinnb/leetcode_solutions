@@ -1,3 +1,8 @@
+//1. Time complexity: Outer loop runs O(n) times because it iterates through each character in the string.
+//Innerwhile loops also runs O(n) times. So entire time complexity of this solution is O(n) * O(n) = O(n^2)
+//2. Space complexity: If the entire string is a palindrome, then this could take up to O(n) space. So space
+//complexity is O(n)
+
 class Solution {
     public String longestPalindrome(String s) {
         String result = "";
