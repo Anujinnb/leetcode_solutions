@@ -1,3 +1,5 @@
+//This also uses hashset and sorting algorithm.
+
 class Solution {
     public int longestConsecutive(int[] nums) {
         int count = 1;
