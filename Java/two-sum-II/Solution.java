@@ -1,3 +1,6 @@
+//Runtime complexity of this program is O(n) because we iterate through the array once using two pointers
+//Space complexity is O(1) because we are not using any additional space and return array only contains 2 elements.
+
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int left = 0;
