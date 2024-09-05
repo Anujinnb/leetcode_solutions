@@ -1,3 +1,7 @@
+//Time complexity: O(n^3) because it iterates through the loop 3 times, which will take n^3
+//Space complexity: O(n^3) because hashset stores triplet elements during the nested loops. In worst case, there could be O(n^3) unique triplets
+//The solution below is not the optimal one.
+
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
