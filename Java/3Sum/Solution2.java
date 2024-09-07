@@ -1,3 +1,8 @@
+//This solution is more optimal than previous solution O(n^3). The time complexity of this solution is O(n^2).
+//Sorting array takes O(nlogn). Outer loop runs O(n) and inner loop also runs O(n), which it takes O(n^2). Overall time complexity is
+// O(nlogn) + O(n^2) = O(n^2).
+//Space complexity is O(n^2), in the worst case
+
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
