@@ -1,3 +1,5 @@
+#include <string.h>
+
 int lengthOfLongestSubstring(char *s)
 {
     int n = strlen(s);
