@@ -1,10 +1,12 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     struct ListNode *next;
- * };
- */
+#include <stdlib.h>
+#include <stddef.h>
+
+struct ListNode
+{
+    int val;
+    struct ListNode *next;
+};
+
 struct ListNode *mergeTwoLists(struct ListNode *list1, struct ListNode *list2)
 {
     struct ListNode *dummy = (struct ListNode *)malloc(sizeof(struct ListNode));
