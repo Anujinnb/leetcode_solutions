@@ -1,10 +1,6 @@
-#include <stddef.h>
+#include "solution.h"
 
-struct ListNode
-{
-    int val;
-    struct ListNode *next;
-};
+#include <stddef.h>
 
 struct ListNode *middle(struct ListNode *head);
 struct ListNode *reverse(struct ListNode *head);
