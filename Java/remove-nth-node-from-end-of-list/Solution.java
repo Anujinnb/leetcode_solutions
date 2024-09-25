@@ -1,3 +1,6 @@
+//Time complexity of this solution is O(M) where M is the size of the linked list.
+//Space complexity of this solution is O(1) because we haven't used any extra space
+
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(0);
