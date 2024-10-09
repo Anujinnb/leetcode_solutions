@@ -1,3 +1,7 @@
+// For every node in root (total m), the isSameTree function may be called, which takes O(n), where n is the number of nodes in subRoot
+// Therefore, time complexity of this program is O(m x n)
+//The space complexity is O(h), where h is the height of the root tree, due to the recursive call stack
+
 class Solution {
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
         if (root == null) {
