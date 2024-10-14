@@ -1,5 +1,3 @@
-//This is a leetcode version of the problem
-
 class Solution {
     public TreeNode lcaDeepestLeaves(TreeNode root) {
         if (root == null) {
