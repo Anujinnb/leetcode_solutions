@@ -1,3 +1,5 @@
+//This solution is not optimal. The time complexity of this program is O(n^2).
+
 class Solution {
     public boolean isZeroArray(int[] nums, int[][] queries) {
         for (int i = 0; i < queries.length; i++) {
