@@ -11,8 +11,6 @@ class Solution {
                 if (nums[j] != 0) {
                     nums[j]--;
                 }
-
-                System.out.println(nums[j]);
             }
         }
 
