@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 int uniquePaths(int m, int n)
 {
     int *row = (int *)malloc(n * sizeof(int));
