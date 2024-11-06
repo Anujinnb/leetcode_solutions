@@ -19,8 +19,12 @@ int uniquePaths(int m, int n)
             newRow[j] = newRow[j + 1] + row[j];
         }
 
+        free(row);
         row = newRow;
     }
 
-    return row[0];
+    int result = row[0];
+    free(row);
+
+    return result;
 }
