@@ -4,6 +4,8 @@
     "stdio.h": "c",
     "stdbool.h": "c",
     "stddef.h": "c",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "__locale": "c",
+    "ios": "c"
   }
 }
