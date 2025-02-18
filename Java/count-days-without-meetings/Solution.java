@@ -1,3 +1,5 @@
+//This solution is brute-force solution which has O(n^2) time complexity.
+
 class Solution {
     public int countDays(int days, int[][] meetings) {
         boolean[] scheduled = new boolean[days + 1];
