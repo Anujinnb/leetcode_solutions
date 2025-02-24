@@ -6,6 +6,8 @@ class Interval(object):
         self.end = end
 """
 
+# This solution takes O(nlogn) time complexity because of the sorting.
+
 class Solution:
     def canAttendMeetings(self, intervals: List[Interval]) -> bool:
         intervals.sort(key=lambda i: i.start)
